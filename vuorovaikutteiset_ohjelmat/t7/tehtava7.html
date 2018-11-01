@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 7</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    var Kkorko, Ksaldo;
+
+    const Nsaldo = prompt('Tilisi saldo: ');
+    const Nkorko = prompt('Vuotuinen korkoprosentti: ');
+
+
+    Kkorko = +Nsaldo * +Nkorko / 100;
+    Ksaldo = +Nsaldo + +Kkorko;
+
+
+    document.write('<p>Vuodessa kertynyt korko: <p>' + Kkorko + '<p>Uusi saldo: <p>' + Ksaldo);
+
+</script>
+</body>
+</html>
