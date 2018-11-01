@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 3</title>
+</head>
+<body>
+<script>
+    'use strict'
+    let sukupuoli = prompt('Oletko mies vai nainen?');
+    let arvo = prompt('Kerro hemoglobiini arvosi: ');
+
+
+    if (sukupuoli == mies) {
+      if (arvo < 134) {
+        document.write('Liian alhainen!');
+      } else if (arvo >195 ) {
+        document.write('Liian korkea!');
+      } else {
+        document.write('Normaali!');
+      }
+    }
+
+    if (sukupuoli == nainen) {
+      if (arvo <117) {
+        document.write('Liian alhainen!');
+      } else if (arvo > 175) {
+        document.write('Liina korkea!');
+      } else {
+        document.write('Normaali!');
+      }
+    }
+</script>
+</body>
+</html>

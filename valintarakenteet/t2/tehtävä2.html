@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 2</title>
+</head>
+<body>
+<script>
+  'use strict';
+  let nimi;
+  nimi = prompt('Kerro nimesi.');
+
+  const rndn = Math.floor(3 * Math.random());
+  switch (rndn){
+    case 1:
+      document.write(nimi + ', olet Rohkelikko');
+      break;
+
+    case 2:
+      document.write(nimi + ', olet Puuskupuh');
+      break;
+
+    case 3:
+      document.write(nimi + ', olet Luihunen');
+      break;
+
+    default:
+      document.write(nimi + ', olet Korpinkynsi');
+
+  }
+
+</script>
+
+
+</body>
+</html>
