@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 5</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        let array = [];
+        let koko = 1000, prompti, i;
+
+        for (i = 0; 1 < koko; i++) {
+          prompti = prompt('Anna lukaja: ');
+          if (array.includes(prompti)) {
+            alert('Luku on jo annettu! ');
+            break;
+          }else{
+            array.push(prompti);
+            console.log(array);
+          }
+        }
+
+    </script>
+</body>
+</html>

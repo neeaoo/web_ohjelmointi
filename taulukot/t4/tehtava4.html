@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 4</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    let luku;
+    let numerot = [];
+
+    luku = prompt('Anna numeroita! ');
+
+    while (luku < 0 || luku > 0 ) {
+      numerot.push(luku);
+      luku = prompt('Anna uusi luku! ');
+    }
+
+    document.write('Luvut ' + numerot.sort().reverse());
+
+
+
+</script>
+</body>
+</html>
