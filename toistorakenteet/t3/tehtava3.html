@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 3</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    let vuosi, Lvuosi, i;
+    vuosi = prompt('Anna aloitusvuosi: ');
+    Lvuosi = prompt('Anna lopetusvuosi: ');
+
+    document.write('<ul>');
+
+    for (i = vuosi; i<= Lvuosi; i++)
+    if ( (0 == i % 4) && (0 != i % 100) || (0 == i % 400) ) {
+      document.write('<li> ' + i + '</li>');
+    }
+
+    document.write( '</ul>');
+
+</script>
+</body>
+</html>

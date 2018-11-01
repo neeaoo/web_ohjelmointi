@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 2</title>
+</head>
+<body>
+<script>
+    'use strict';
+    let luku;
+    luku = prompt('Anna luku: ');
+
+    while(luku <= 0 ) {
+      luku = prompt('Luvun on oltava positiivinen tai suurempi kuin 0, anna uusi luku:')
+    }
+
+    document.write('Luvun ' + luku + ' neliöjuuri on ' + Math.sqrt(luku));
+
+</script>
+</body>
+</html>
