@@ -13,13 +13,12 @@ for(let i = 0; i < lista.length; i++) {
   lista[3].style.backgroundColor = 'green';
   lista[i].style.width = '100px';
   lista[i].style.listStyleType = 'none';
-  lista[i].style.border = '1px solid black';
   console.log('Using the for loop here: ' + lista);
 }
 
 const nodeLista = document.querySelectorAll('li');
 console.log(nodeLista);
 
-[].forEach.call(nodeLista, function (item){
-  console.log(item);
+nodeLista.forEach(item => {
+  item.style.border = '1px solid black';
 });
