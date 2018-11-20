@@ -1,0 +1,49 @@
+body {
+    margin: 19%;
+    background-image: url("TV.png");
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#haku {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    size: 50px;
+}
+
+#hakuteksti {
+    margin-bottom: 5%;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+#tulos {
+    text-align: center;
+}
